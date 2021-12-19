@@ -6,7 +6,7 @@ namespace HelloWorld.Library
     {
         public string GetContent()
         {
-            return string.Empty; // "Hello World!";
+            return "Hello testing World!";
         }
     }
 }
