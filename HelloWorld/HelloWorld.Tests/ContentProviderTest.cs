@@ -18,10 +18,17 @@ namespace HelloWorld.Tests
         public void ContentProvider_returns_not_empty_string()
         {
             var result = sut.GetContent();
-
-            Assert.NotNull(result);
+             
             Assert.NotEmpty(result);
         }
+        [Fact]
+        public void ContentProvider_returns_not_null()
+        {
+            var result = sut.GetContent();
+
+            Assert.NotNull(result); 
+        }
+
         [Fact]
         public void AlwaysTrue()
         {
