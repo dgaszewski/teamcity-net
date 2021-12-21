@@ -6,7 +6,7 @@ namespace HelloWorld.Library
     {
         public string GetContent()
         {
-            return "Hello testing World!";
+            return "Hello World from " + Environment.MachineName;
         }
     }
 }
