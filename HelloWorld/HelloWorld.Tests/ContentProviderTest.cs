@@ -22,5 +22,10 @@ namespace HelloWorld.Tests
             Assert.NotNull(result);
             Assert.NotEmpty(result);
         }
+        [Fact]
+        public void AlwaysTrue()
+        {
+            Assert.True(true);
+        }
     }
 }
