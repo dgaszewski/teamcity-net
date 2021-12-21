@@ -21,6 +21,7 @@ namespace HelloWorld.Tests
              
             Assert.NotEmpty(result);
         }
+
         [Fact]
         public void ContentProvider_returns_not_null()
         {
